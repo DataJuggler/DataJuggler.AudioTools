@@ -5,6 +5,9 @@ files and DataJuggler.PixelDatabase is used to create the wave images.
 
 Canvas is an 800 x 200 PictureBox with BackgroundImageLayout set to Stretch.
 
+The image created will 200 height and width will be 200 for every second of audio.
+Longer audio files do take longer.
+
     using DataJuggler.AudioTools;
 
     // Path to your audioFile
