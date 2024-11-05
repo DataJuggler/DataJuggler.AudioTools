@@ -46,3 +46,7 @@ Please create an issue if you find any problems or if you have any suggestions o
 
 Thanks
 
+# News
+11.5.2024: NuGet package PixelDatabase was updated, which fixed a bug with the Background image
+not being created.
+

@@ -8,12 +8,12 @@
     <PackageIcon>AudioIcon.png</PackageIcon>
     <PackageReadmeFile>ReadMe.md</PackageReadmeFile>
     <ApplicationIcon>AudioIcon.ico</ApplicationIcon>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <PackageProjectUrl>https://github.com/DataJuggler/DataJuggler.AudioTools</PackageProjectUrl>
     <RepositoryUrl>https://github.com/DataJuggler/DataJuggler.AudioTools</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>Audio; Wave Patterns;</PackageTags>
-    <PackageReleaseNotes>This is the first release of this package.</PackageReleaseNotes>
+    <PackageReleaseNotes>First working version that generates bitmaps representing audio Wave signals</PackageReleaseNotes>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
@@ -28,7 +28,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="DataJuggler.PixelDatabase" Version="8.3.4" />
+    <PackageReference Include="DataJuggler.PixelDatabase" Version="8.3.6" />
     <PackageReference Include="NAudio" Version="2.2.1" />
   </ItemGroup>
 
