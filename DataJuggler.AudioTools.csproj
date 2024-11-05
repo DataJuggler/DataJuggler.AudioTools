@@ -8,7 +8,7 @@
     <PackageIcon>AudioIcon.png</PackageIcon>
     <PackageReadmeFile>ReadMe.md</PackageReadmeFile>
     <ApplicationIcon>AudioIcon.ico</ApplicationIcon>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <PackageProjectUrl>https://github.com/DataJuggler/DataJuggler.AudioTools</PackageProjectUrl>
     <RepositoryUrl>https://github.com/DataJuggler/DataJuggler.AudioTools</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
@@ -16,6 +16,12 @@
     <PackageReleaseNotes>This is the first release of this package.</PackageReleaseNotes>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="WinFormsTest\**" />
+    <EmbeddedResource Remove="WinFormsTest\**" />
+    <None Remove="WinFormsTest\**" />
+  </ItemGroup>
 
   <ItemGroup>
     <Content Include="AudioIcon.ico" />
