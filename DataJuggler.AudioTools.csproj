@@ -8,13 +8,14 @@
     <PackageIcon>AudioIcon.png</PackageIcon>
     <PackageReadmeFile>ReadMe.md</PackageReadmeFile>
     <ApplicationIcon>AudioIcon.ico</ApplicationIcon>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
     <PackageProjectUrl>https://github.com/DataJuggler/DataJuggler.AudioTools</PackageProjectUrl>
     <RepositoryUrl>https://github.com/DataJuggler/DataJuggler.AudioTools</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>Audio; Wave Patterns;</PackageTags>
     <PackageReleaseNotes>First working version that generates bitmaps representing audio Wave signals</PackageReleaseNotes>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>DataJuggler.AudioTools makes it simple to draw a Wave file image in C#. NAudio is used to read audio files and DataJuggler.PixelDatabase is used to create the wave images.</Description>
   </PropertyGroup>
 
   <ItemGroup>
